@@ -1,0 +1,32 @@
+{
+  "name": "node-password-manager",
+  "version": "0.0.2",
+  "description": "A Password Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredallard/node-password-manager.git"
+  },
+  "keywords": [
+    "node",
+    "password",
+    "manager",
+    "NPM"
+  ],
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredallard/node-password-manager/issues"
+  },
+  "homepage": "https://github.com/jaredallard/node-password-manager#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "debug": "^2.2.0",
+    "prompt": "^0.2.14",
+    "request": "^2.63.0",
+    "sqlite3": "^3.1.0"
+  }
+}
